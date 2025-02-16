@@ -1,0 +1,346 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box; 
+}
+.navbar{
+    height:60px;
+    background-color:#1e1f1f;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 50px;
+    width:100px;
+    
+}
+.logo{
+    background-image: url("amazon.png");
+    background-size:cover;
+    height:50px;
+    width: 100%;   
+}
+#border{
+    border:1.5px solid transparent;
+    border-radius: 3px;
+}
+#border:hover{
+    border:1.5px solid white;
+}
+.nav-address{
+    height: 30px;
+    width:70px;
+    padding:10px;
+}
+#nav{
+    border:1.5px solid transparent;
+    border-radius: 3px;
+}
+#nav:hover{
+    border:1.5px solid white;
+}
+#delivery{
+    font-size: 12px;
+    color:white;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: orange;
+    border-radius: 3px;
+    width:620px;
+    height: 30px;
+        
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search{
+    width:50px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border: none;
+}  
+.input{
+    width: 100%;
+    border-radius: 0px;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border: none;
+    color:black;
+}
+.sign-in{
+    width: 100px;
+    height: 40px;
+    border: 2px solid transparent;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 3px;
+}
+.sign-in:hover{
+    border:2px solid white;
+}
+.nav-first{
+    font-size: 11px;
+}
+.nav-second{
+    font-size:12px;
+    font-weight: bold;
+}
+.returns{
+    width: 100px;
+    height: 40px;
+    border:2px solid transparent;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 3px;
+}
+.returns:hover{
+    border:2px solid white;
+}
+.navr{
+    font-size:13px;
+}
+.cart{
+    width:100px;
+    height:40px;
+    border:2px solid transparent;
+    border-radius: 3px;
+}
+.cart:hover{
+    border:2px solid white;
+}
+#cart1{
+    font-size:30px
+}
+.panel{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    height: 40px;
+    background-color:#2f3030 ;
+    color: white;
+    justify-content: space-evenly;
+}
+.panel1{
+    padding-left: 5px;
+    padding-right:20px ;
+    border:2px solid transparent;
+    border-radius: 3px;
+    font-weight: 20px;
+}
+.panel1:hover{
+    border:2px solid white;
+}
+.link{
+    width: 80%;
+}
+.link a{
+    width:30px;
+    height:37px;
+    text-decoration: none; 
+    padding-left: 15px; 
+    color:white;
+    border:2px solid transparent;
+    display: inline;
+    justify-content: space-evenly;
+    border-radius: 3px;
+    font-weight: 15px;
+}
+.link a:hover{
+    border:2px solid white;
+}
+.shop{
+    width: 200px;
+    height: 37px;
+    border: 2px solid transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-weight: 20px;
+}
+.shop:hover{
+    border:2px solid white;
+}
+.hero{
+    background-image: url('hero.png');
+    height: 350px;
+    background-size: cover;
+}
+.hero-msg{
+    height: 40px;
+    width:1370px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:270px;
+    left: 20px;
+    font-size: 15px;
+}
+.hero-msg a{
+    display:flex;
+    text-decoration: none;
+    color: rgb(16, 70, 16);
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(247, 153, 30, 0.676);
+}
+.box{
+    border:2px solid black;
+    height: 250px;
+    width:23% ;
+    padding: 20px 0px 15px;
+    margin:10px;
+    background-color: #f3f3f3d3;
+}
+.content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.image1{
+    background-size: cover;
+    height: 200px;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+.content1{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.image2{
+    background-size: cover;
+    height: 200px;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.content2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.image3{
+    background-size: cover;
+    height: 200px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.content3{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.image4{
+    background-size: cover;
+    height: 200px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.see{
+    height: 150px;
+    border:0.5px solid rgba(91, 91, 89, 0.445);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.see h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.see div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgba(255, 208, 0, 0.836);
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+}
+.new{
+    font-size: 13px;
+}
+footer{
+    margin-top: 15px;
+}
+.foot{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot1{
+    background-color: #222f3d;
+    color:#f3f3f3;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    display:block;
+    font-size:14px;
+    font-weight:normal;
+    margin-top:15px;
+    color: #dddddd;
+}
+.foot2{
+    background-color: #222f3d;
+    color:white;
+    border:2px solid transparent; 
+    height: 70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot2:hover{
+    border:2px solid white;
+}
+.log{
+    background-image: url("amazon.png");
+    background-size:cover;
+    height:50px;
+    width: 100px; 
+}
+.foot3{
+    height:50px;
+    background-color: #0c1928;
+    color:white;
+    justify-content: center;
+    text-align: center;
+}
+.page a{
+    margin-right:20px
+}
+.copy{
+    display:flex;
+    justify-content: center;
+
+}
+
+
+
